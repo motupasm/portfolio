@@ -253,7 +253,7 @@ h6 {
   justify-self: center;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  justify-content: center;
+  justify-content:center;
 }
 
 #project_one {
@@ -310,6 +310,7 @@ h6 {
   padding-top: 15px;
   transition: 300ms;
   cursor: pointer;
+  align-items: center;
 }
 #project_title:hover {
   color: white;
@@ -339,6 +340,12 @@ h6 {
   color: #ffffff;
   font-size: 15px;
   padding-left: 25px;
+}
+#externalLink{
+  transition: 400ms ease-in-out;
+}
+#externalLink:hover{
+  fill: #ffffff;
 }
 /* <!- ------------------------------------------SKILLS SECTION--------------------------------------------------> */
 #skillsheader {
